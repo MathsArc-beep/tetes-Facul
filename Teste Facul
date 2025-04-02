@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    *{
+        border: 1px solid rgb(119, 43, 119);
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+
+    }
+    .navbar{
+        background-color: #911616;
+        padding: 15px;
+        display: flex;
+        margin: 0%;
+        box-sizing:space-between;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .fotoNome{
+        width: 200px;
+        height: 200px;
+        
+
+
+    }
+    .profile-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: 5px solid rgb(red, green, blue);
+    }
+</style>
+
+<div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">CONTATOS</a>
+
+    </div>
+    <div class="fotoNome">
+        <img class="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVdb0pfriWPLXRMsRTZbND3OwPbBS0EtdApg&s">
+        <h1>TESTE</h1>
+    </div>
+    
+</body>
+</html>
